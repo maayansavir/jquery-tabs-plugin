@@ -1,7 +1,8 @@
 # jquery-tabs-plugin
-
+<p>
 This is a very simple, liteweight and esasy to handle jqUery tabs plugin.
 first, you will need your html to look like that :
+</p>
 ```html
 <div class='wrapper'>
     <ul>
@@ -16,28 +17,31 @@ first, you will need your html to look like that :
 </div>
 ```
 
+<p>
+And all you need to to is to call the tabs function like this :
+</p>
 
-And all youe need to to is to call the tabs function like this :
-
+<p>
 $(".wrapper").tabs();
-
+</p>
+<h4>
 Other options :
+</h4>
 
-adds fading effect the tabs
-$(".wrapper").tabs({
-    fade : true
+<h6> adds fading effect the tabs </h6>
+$(".wrapper").tabs({<br>
+    fade : true <br>
 });
 
 
-determines which tabs and content will be shown first
-$(".wrapper").tabs({
-    firstShown : 2
+<h6>determines which tabs and content will be shown first </h6>
+$(".wrapper").tabs({<br>
+    firstShown : 2 <br>
 });
 
-
-changes tabs and content automatically every X seconds (in this example every two second)
-$(".wrapper").tabs({
-    transition : 2
+<h6> changes tabs and content automatically every X seconds (in this example every two second) </h6>
+$(".wrapper").tabs({ <br>
+    transition : 2 <br>
 });
 
 
