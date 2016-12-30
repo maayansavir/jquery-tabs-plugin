@@ -2,7 +2,7 @@
 
 This is a very simple, liteweight and esasy to handle jqUery tabs plugin.
 first, you will need your html to look like that :
-
+<code>
 <div class='wrapper'>
     <ul>
         <li data-tab='tab-1'> tab-1 </li>
@@ -15,6 +15,7 @@ first, you will need your html to look like that :
     <div data-tab="tab-1" class="content"></div>
 
 </div>
+</code>
 
 
 And all youe need to to is to call the tabs function like this :
