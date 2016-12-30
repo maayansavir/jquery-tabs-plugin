@@ -11,9 +11,8 @@ first, you will need your html to look like that :
     </ul>
 
     <div data-tab="tab-1" class="content"></div>
-    <div data-tab="tab-1" class="content"></div>
-    <div data-tab="tab-1" class="content"></div>
-
+    <div data-tab="tab-2" class="content"></div>
+    <div data-tab="tab-3" class="content"></div>
 </div>
 ```
 
