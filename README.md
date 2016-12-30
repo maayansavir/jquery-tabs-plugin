@@ -23,19 +23,19 @@ $(".wrapper").tabs();
 
 Other options :
 
-//adds fading effect the tabs
+adds fading effect the tabs
 $(".wrapper").tabs({
     fade : true
 });
 
 
-//determines which tabs and content will be shown first
+determines which tabs and content will be shown first
 $(".wrapper").tabs({
     firstShown : 2
 });
 
 
-//changes tabs and content automatically every X seconds (in this example every two second)
+changes tabs and content automatically every X seconds (in this example every two second)
 $(".wrapper").tabs({
     transition : 2
 });
